@@ -5,7 +5,7 @@ import NewTodo from './NewTodo'
 import { addTodo, deleteTodo } from '../actions'
 
 const Todos = ({todos, dispatch}) => (
-  <div>
+  <div className="container">
     <h1>Todos</h1>
     <NewTodo onChange={e => {
       if(e.keyCode == 13){
