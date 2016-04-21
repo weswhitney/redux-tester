@@ -12,3 +12,9 @@ export function deleteTodo(index){
   }
 }
 
+export function nauticalTodo(todo){
+  return {
+    type: 'nauticalTodo',
+    todo
+  }
+}
